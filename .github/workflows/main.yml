@@ -30,4 +30,4 @@ jobs:
           fail-on-alert: true
           alert-comment-cc-users: '@LooDaHu'
       - name: Push benchmark result
-        run: git push 'https://LooDaHu:${{ secrets.PERSONAL_GITHUB_TOKEN }}@github.com/you/github_action_bench_test.git' gh-pages:gh-pages
+        run: git push 'https://LooDaHu:${{ secrets.PERSONAL_GITHUB_TOKEN }}@github.com/LooDaHu/github_action_bench_test.git' gh-pages:gh-pages
