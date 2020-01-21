@@ -2,7 +2,7 @@ import time
 import pytest
 
 
-def something(duration=0.000004):
+def something(duration=0.000008):
     """
     Function that needs some serious benchmarking.
     """
