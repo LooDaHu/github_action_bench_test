@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1579585782325,
+  "lastUpdate": 1579586523881,
   "repoUrl": "https://github.com/LooDaHu/github_action_bench_test",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -111,6 +111,43 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00004076933778280798",
             "extra": "mean: 1.0819379999998706 msec\nrounds: 913"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "651120561@qq.com",
+            "name": "LooDaHu",
+            "username": "LooDaHu"
+          },
+          "committer": {
+            "email": "PueWcyKd2xdwKBF",
+            "name": "651120561@qq.com"
+          },
+          "distinct": true,
+          "id": "0d14969992766cefb2b4cce0e42e176d1aefdd41",
+          "message": "time change",
+          "timestamp": "2020-01-20T23:01:17-07:00",
+          "tree_id": "942105d1a44c69f78b1d5fc73d12072e038ef5d8",
+          "url": "https://github.com/LooDaHu/github_action_bench_test/commit/0d14969992766cefb2b4cce0e42e176d1aefdd41"
+        },
+        "date": 1579586522963,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "new_test.py::test_my_stuff",
+            "value": 12673.020996804913,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010185713773279554",
+            "extra": "mean: 78.90778372829314 usec\nrounds: 9488"
+          },
+          {
+            "name": "new_test.py::test_my_stuff_different_arg",
+            "value": 893.4195985362817,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011968115276993591",
+            "extra": "mean: 1.1192948997742298 msec\nrounds: 898"
           }
         ]
       }
