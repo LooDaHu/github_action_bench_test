@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1579620258219,
+  "lastUpdate": 1579621239072,
   "repoUrl": "https://github.com/LooDaHu/github_action_bench_test",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -224,6 +224,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00003629591824271442",
             "extra": "mean: 1.1178877516702537 msec\nrounds: 898"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "40339075+LooDaHu@users.noreply.github.com",
+            "name": "LooDaHu",
+            "username": "LooDaHu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e2c099db8999463e542db2a759f59881a180008",
+          "message": "Create main_backup.yml",
+          "timestamp": "2020-01-21T08:40:04-07:00",
+          "tree_id": "12c23216bd80da648412407836e94f60c03f342e",
+          "url": "https://github.com/LooDaHu/github_action_bench_test/commit/3e2c099db8999463e542db2a759f59881a180008"
+        },
+        "date": 1579621238667,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "new_test.py::test_my_stuff",
+            "value": 12298.071889306537,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009062142741450693",
+            "extra": "mean: 81.31355947508516 usec\nrounds: 8533"
+          },
+          {
+            "name": "new_test.py::test_my_stuff_different_arg",
+            "value": 902.1411046320761,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000027887980084473176",
+            "extra": "mean: 1.1084740456514661 msec\nrounds: 920"
           }
         ]
       }
